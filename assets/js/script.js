@@ -1,6 +1,6 @@
 
 $('.interesting-slider').slick({
-    infinite: false,
+    infinite: true,
     dots: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -9,12 +9,13 @@ $('.interesting-slider').slick({
             breakpoint: 767,
             settings:{
                 slidesToShow: 1.2,
+                infinite: false,
             }
         },
     ]
 });
 $('.sea_creatures-slider').slick({
-    infinite: false,
+    infinite: true,
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -31,6 +32,7 @@ $('.sea_creatures-slider').slick({
             settings:{
                 slidesToShow: 1.1,
                 slidesToScroll: 1,
+                infinite: false,
             }
         },
     ]
