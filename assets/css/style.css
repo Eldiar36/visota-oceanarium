@@ -491,7 +491,7 @@ main {
     margin-bottom: auto;
     padding: 0 42px;
 }
-.interesting-slider span{
+.interesting-slider .price{
     font-size: 18px;
     line-height: 20px;
     color: #ffffff;

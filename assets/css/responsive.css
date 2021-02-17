@@ -1,4 +1,121 @@
+@media (max-width: 1600px) {
+    .container {
+        width: 1152px;
+        max-width: 1552px;
+    }
+    #oceanarium .video_iframe iframe {
+        height: 291px
+    }
+    #oceanarium .info {
+        padding-top: 30px;
+        padding-left: 62px;
+    }
+    #oceanarium .video_iframe {
+        width: 520px;
+        margin-left: auto;
+        padding-right: 82px;
+    }
+    #oceanarium .info p{
+        margin-bottom: 20px;
+    }
+    #oceanarium .info p br {
+       display: none;
+    }
+    #oceanarium .sea_creatures {
+        margin-top: 58px;
+        margin-bottom: -158px;
+        padding: 0 140px;
+    }
+    .sea_creatures-slider .item {
+        height: 440px;
+    }
+    .sea_creatures-slider .item .box_hover-text {
+        padding: 89px 15px 0 15px;
+    }
+    .sea_creatures-slider .item .box_hover-text p.last{
+        display: none;
+    }
+    .sea_creatures-slider .item .name {
+        font-size: 32px;
+    }
+    #about-excursion {
+        padding: 215px 0 60px 0;
+    }
+    #about-excursion .about-excursion-bottom .container {
+        padding: 0 140px;
+    }
+    #about-excursion .second-row .info_text p {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    #about-excursion .btn-wrap {
+        margin-top: 60px;
+    }
+    #interesting {
+        padding: 45px 0 63px 0;
+    }
+    #interesting .section-subtitle {
+        width: 70%;
+        margin-bottom: 48px;
+    }
+    #interesting .container {
+        padding: 0 140px;
+    }
+    .interesting-slider .item {
+        padding: 139px 0 40px 0;
+        height: 440px;
+    }
+    .interesting-slider .item.third {
+        padding-top: 80px;
+    }
+    .interesting-slider .title {
+        padding: 0 25px;
+        margin-bottom: 30px;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .interesting-slider .subtitle{
+        padding: 0 35px;
+    }
+    .interesting-slider .subtitle br {
+        display: none;
+    }
+    .interesting-slider .subtitle span{
+        display: none;
+    }
+    #interesting .checkbox-box {
+        grid-row-gap: 22px;
+        grid-column-gap: 104px;
+        margin-left: 10px;
+        margin-top: 33px;
+        margin-right: 0;
+    }
+    #exclusive {
+        padding: 61px 0 123px 0;
+    }
+    #exclusive .section-title-wrap {
+        width: 66%;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 952px;
+    }
+}
 @media (max-width: 500px) {
+    #oceanarium .sea_creatures {
+        padding: 0;
+    }
+    #interesting .container {
+        padding: 0;
+    }
+    #interesting .checkbox-box {
+        margin-left: 37px;
+    }
+    .sea_creatures-slider,
+    .interesting-slider{
+        padding: 0;
+    }
     .container{
         width: 100%;
         max-width: 100%;
@@ -254,5 +371,12 @@
     }
     #exclusive .btn-wrap {
         margin-top: 25px;
+    }
+}
+@media (max-width: 340px) {
+    #hero .hero-head .subtitle {
+        font-size: 32px;
+        line-height: 39px;
+        width: 70%;
     }
 }
