@@ -1,0 +1,258 @@
+@media (max-width: 500px) {
+    .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .section-title{
+        font-size: 24px;
+        line-height: 27px;
+    }
+    #hero .hero-head{
+        background: url("../images/head_mobile.png")no-repeat;
+        background-size: cover;
+        padding: 336px 30px 48px 30px;
+    }
+    #hero .hero-head .subtitle {
+        font-size: 40px;
+        line-height: 45px;
+        width: 70%;
+    }
+    #hero .hero-head .title {
+        font-size: 12px;
+        line-height: 53px;
+        color: #fd227e;
+    }
+    #hero .box-body {
+        padding: 80px 20px 55px 42px;
+    }
+    #hero .box-body .body_info {
+        grid-template-columns: 1fr;
+        margin-right: 22px;
+        padding-bottom: 80px;
+    }
+    #hero .box-body .body_info .title {
+        font-size: 33px;
+        line-height: 35px;
+        margin-right: 0;
+    }
+    #hero .box-body .body_info span {
+        font-size: 15px;
+        line-height: 22px;
+        padding-right: 0;
+        margin-top: 33px;
+    }
+    #hero .box-body .body-option {
+        padding: 40px 0 43px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #hero .box-body .body-option .name {
+        font-size: 13px;
+    }
+    #hero .box-body .body-option .subtitle {
+        font-size: 24px;
+    }
+    #hero .box-body .body-option .item.last .name {
+        margin-bottom: 7px;
+        align-items: inherit;
+    }
+    .po_que {
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+    #hero .box-body .body-option .item.last .subtitle {
+        line-height: 22px;
+    }
+    #hero .box-body .body-option .subtitle span {
+        font-size: 13px;
+    }
+    #hero .box-body .body-option .item:first-child {
+        margin-right: auto;
+        margin-bottom: 45px;
+    }
+    #hero .box-body .body-option .item:nth-child(2) {
+        margin-right: 0;
+    }
+    #hero .box-body .body-option .item:nth-child(3) {
+        margin-right: 30px;
+    }
+    #hero .box-body .btn-wrap {
+        justify-content: flex-start;
+        display: flex;
+    }
+    .po_que:hover .popup {
+        width: 200px;
+        left: -80px;
+    }
+    #oceanarium .section-title {
+        margin-bottom: 56px;
+    }
+    #oceanarium .info {
+        display: none;
+    }
+    #oceanarium .video_iframe{
+        display: none;
+    }
+    #oceanarium .sea_creatures {
+        margin-top: 0;
+        margin-bottom: -153px;
+        margin-left: 41px;
+    }
+    .slick-prev,
+    .slick-next{
+        display: none!important;
+    }
+    .sea_creatures .row {
+        margin: 0;
+    }
+    .sea_creatures-slider .item {
+        height: 450px;
+    }
+    .sea_creatures-slider .item .name {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .sea_creatures-slider .item .box_hover-text {
+        padding: 65px 28px 0 28px;
+    }
+    .sea_creatures-slider .item .box_hover-text p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 12px;
+    }
+    #about-excursion {
+        padding: 173px 0 83px 0;
+    }
+    #about-excursion  .container{
+        padding-left: 57px;
+        padding-right: 30px;
+    }
+    #about-excursion .about-excursion-bottom .container{
+        padding: 0;
+    }
+    #about-excursion .second-row .info_text p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    #about-excursion .second-row .info_text p br {
+        display: none;
+    }
+    #about-excursion .second-row .info_text {
+        width: 100%;
+        position: relative;
+    }
+    #about-excursion .second-row .info_text:before {
+        left: -16px;
+    }
+    .about-excursion-bottom .second-row .info_text.first-row_col {
+        margin-bottom: 33px;
+    }
+    #about-excursion .btn-wrap {
+        margin-top: 41px;
+    }
+    #interesting {
+        padding: 48px 0 38px 0;
+    }
+    #interesting .interesting-slider{
+        padding-left:41px;
+    }
+    #interesting .section-subtitle {
+        font-size: 14px;
+        color: #ffffff;
+        line-height: 18px;
+        width: 75%;
+        margin-bottom: 21px;
+    }
+    #interesting .checkbox-box {
+        grid-template-columns: 1fr;
+        grid-row-gap: 14px;
+        grid-column-gap: 0;
+        margin-right: 0;
+    }
+    .checkbox-wrap p {
+        font-size: 13px;
+        color: #FFFFFF;
+        margin-left: 8px;
+    }
+    .button{
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    #interesting .btn-wrap {
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-left: 37px;
+    }
+    #interesting .btn-wrap .button:first-child {
+        margin-bottom: 15px;
+    }
+    .interesting-slider .item.third {
+        padding-top: 90px;
+    }
+    .interesting-slider .title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 26px;
+    }
+    .interesting-slider .item.third .title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 13px;
+    }
+    .interesting-slider .subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 0 27px;
+    }
+    .interesting-slider .item {
+        padding: 90px 0 25px 0;
+        height: 420px;
+    }
+    .sea_creatures-slider .slick-track,
+    .interesting-slider .slick-track {
+        left: -10px;
+    }
+    .interesting-slider span {
+        font-size: 14px;
+        line-height: 7px;
+        padding-left: 27px;
+    }
+    #exclusive {
+        padding: 84px 0 21px 0;
+    }
+    #exclusive .section-title-wrap {
+        width: 100%;
+        margin: 0 auto 40px auto;
+    }
+    #exclusive .box .title {
+        margin-bottom: 17px;
+        font-size: 26px;
+        line-height: 26px;
+    }
+    #exclusive .box .subtitle {
+        width: 100%;
+    }
+    #exclusive .box {
+        padding: 32px 20px 23px 41px;
+        height: 334px;
+    }
+    #exclusive .box.second {
+        height: auto;
+    }
+    #exclusive .box .price-box {
+        margin-top: 22px;
+    }
+    #exclusive .box .price-box .title {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 14px;
+    }
+    #exclusive .box .price-box .item {
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    #exclusive .btn-wrap {
+        margin-top: 25px;
+    }
+}
