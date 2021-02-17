@@ -12,8 +12,7 @@
     }
     #oceanarium .video_iframe {
         width: 520px;
-        margin-left: auto;
-        padding-right: 82px;
+        padding-right: 10px;
     }
     #oceanarium .info p{
         margin-bottom: 20px;
@@ -47,6 +46,12 @@
     #about-excursion .second-row .info_text p {
         font-size: 28px;
         line-height: 32px;
+    }
+    #about-excursion .second-row .info_text p br {
+        display: none;
+    }
+    .about-excursion-bottom .second-row .info_text {
+        margin-right: 10px;
     }
     #about-excursion .btn-wrap {
         margin-top: 60px;
@@ -194,10 +199,7 @@
     #hero .box-body .body-option .item:nth-child(3) {
         margin-right: 30px;
     }
-    #hero .box-body .btn-wrap {
-        justify-content: flex-start;
-        display: flex;
-    }
+
     .po_que:hover .popup {
         width: 200px;
         left: -80px;
@@ -297,12 +299,15 @@
         font-size: 14px;
     }
     #interesting .btn-wrap {
-        justify-content: flex-start;
+        align-items: center;
         flex-direction: column;
         padding-left: 37px;
+        padding-right: 37px;
     }
+
     #interesting .btn-wrap .button:first-child {
         margin-bottom: 15px;
+        margin-right: 0;
     }
     .interesting-slider .item.third {
         padding-top: 90px;
@@ -341,6 +346,7 @@
     #exclusive .section-title-wrap {
         width: 100%;
         margin: 0 auto 40px auto;
+        padding: 0 30px;
     }
     #exclusive .box .title {
         margin-bottom: 17px;
@@ -371,6 +377,8 @@
     }
     #exclusive .btn-wrap {
         margin-top: 25px;
+        justify-content: center;
+        margin-left: -19px;
     }
 }
 @media (max-width: 340px) {

@@ -524,6 +524,7 @@ main {
 #exclusive .section-title-wrap .section-title{
     text-align: center;
     color: #586172;
+    letter-spacing: 0;
 }
 #exclusive .box {
     padding: 48px 20px 36px 40px;
